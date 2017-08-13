@@ -1,0 +1,50 @@
+body {
+	/* background-image: URL("../images/bg.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-image: URL("../images/jumbo.jpg");
+}
+.panel {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #00FFFF;
+	color: #7FFF00;
+	font-size: 24px;
+}
+.crystal-image {
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	
+}
+
+.panel-title {
+	font-weight: bold;
+	Font-size: 24px;
+	color: purple;
+}
+
+
+#panel {
+	background-image: URL("../images/panel.jpg");
+	color: #7FFF00;
+}
+#jumbotron {
+	background-image: URL("../images/pyrimid.jpg");
+	background-size: cover;
+	color: #00FFFF;
+	font-weight: bold;
+	}
+	
+#randomNum {
+	background-color: #7FFF00;
+	color: purple;
+	font-size: 36px;
+}
+#win-loss {
+	background-color: #7FFF00;
+	color: purple;
+	font-size: 24px;
+}

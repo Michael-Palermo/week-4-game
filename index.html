@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+	<title>Crystals Collector</title>
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+    
+
+  </head>
+
+  <body>
+  <div class="container-fluid">
+  	<div class="row">
+		<div class="jumbotron text-center" id="jumbotron">
+			<h1>Crystals Collector!</h1>  
+		</div>
+		<!-- Game Instructions div-->
+		<div class="col-md-offset-3 col-md-6">
+			<div class="panel panel-default" id="panel">
+				<div class="panel-body">
+		You will be given a random number at the start of the game
+		<br>
+		<br>		
+		There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br>
+		<br>
+		You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br>
+		<br>
+		The value of each crystal is hidden from you until you click on it.<br>
+		<br>
+		Each time, when the game starts, the game will change the value of each crystal. <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="row">
+	<!-- this will be the random number click next to the win-loss counter -->
+		<div class="col-md-offset-2 col-md-4 well" id="randomNum"><h1>Number to Guess: <span id="number-to-guess"></span></h1>
+		</div>
+		<div class="col-md-2 col-md-offset-1  well" id="win-loss">
+			Wins:<span id="wins"></span>
+			<br>
+			Losses:<span id="losses"></span>
+			<br>
+		</div>
+	</div>
+	
+	
+	<div class="row">
+	
+	<div class="col-md-1"></div>
+	
+	
+	<div class="col-md-offset-2 col-md-2 panel" id="crystal1"><img src="assets/images/crystal.jpg" class="crystal-Image"></div>
+	<div class="col-md-2 panel" id="crystal2"><img src="assets/images/crystal.jpg" class="crystalImage"></div>
+	<div class="col-md-2 panel" id="crystal3"><img src="assets/images/crystal.jpg" class="crystalImage"></div>
+	<div class="col-md-2 panel" id="crystal4"><img src="assets/images/crystal.jpg" class="crystalImage"></div>
+	</div>
+	
+	<div class="row">
+	<!-- this will house the total score -->
+	  <div class="col-md-offset-4 col-md-4">
+		<div class="panel">
+			<div class="panel-heading">
+			<h3 class="panel-title">Your Total Score Is: </h3>
+			</div>
+		    <div class="panel-body"><span id="totalScore"></span>
+		    </div>
+	  </div>
+      </div>
+	 </div>
+	
+	
+	
+	
+  </div>
+  
+  
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+  </html>
